@@ -1,0 +1,22 @@
+
+body {
+    min-height: 100vh;
+    margin: 0!important;
+}
+
+.swal2-popup {
+    border-radius: 10px;
+}
+
+.swal2-header .swal2-content .swal2-title{
+    color: $grey;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.swal2-actions button{
+    background: $green!important;
+}
+
+.is-closed {
+    display: none;
+}

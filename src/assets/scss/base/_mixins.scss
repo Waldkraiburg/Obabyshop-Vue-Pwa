@@ -1,0 +1,33 @@
+// Media queries
+@mixin breakpoint($size: 'medium') {
+    $breakpoint-min-width: $breakpoint-medium-min-width;
+
+    @if ($size == 'large') {
+        $breakpoint-min-width: $breakpoint-large-min-width;
+    } @else if ($size == 'very-large') {
+        $breakpoint-min-width: $breakpoint-very-large-min-width;
+    }
+
+    @media (min-width: $breakpoint-min-width) {
+        @content;
+    }
+}
+
+
+@mixin breakpoint-medium {
+    @include breakpoint('medium') {
+        @content;
+    }
+}
+
+@mixin breakpoint-large {
+    @include breakpoint('large') {
+        @content;
+    }
+}
+
+@mixin breakpoint-very-large {
+    @include breakpoint('very-large') {
+        @content;
+    }
+}
