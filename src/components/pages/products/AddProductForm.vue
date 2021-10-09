@@ -49,10 +49,10 @@
               id="categories"
             >
               <option value>Choisir une catégorie</option>
-              <option value="7">Vêtements</option>
-              <option value="4">Jouets</option>
-              <option value="5">Meubles</option>
-              <option value="6">Accessoires</option>
+              <option value="4">Vêtements</option>
+              <option value="2">Jouets</option>
+              <option value="3">Meubles</option>
+              <option value="1">Accessoires</option>
             </select>
           </div>
           <div class="add-product-form__field">

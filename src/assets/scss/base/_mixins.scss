@@ -9,7 +9,7 @@
     }
 
     @media (min-width: $breakpoint-min-width) {
-        @content;
+        @content; //récupère valeur dans mixin 
     }
 }
 

@@ -15,6 +15,8 @@ export default {};
   justify-content: center;
   align-items: center;
   height: 65vh;
-  color: $grey;
+  color: $green;
+  font-size: 5em;
 }
+
 </style>

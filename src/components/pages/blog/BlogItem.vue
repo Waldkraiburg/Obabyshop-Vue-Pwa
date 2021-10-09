@@ -115,6 +115,7 @@ export default {
     }
     h2 {
       font-family: "Catamaran";
+      font-style: bold;
       font-size: 1.2em;
     }
     @include breakpoint-medium {

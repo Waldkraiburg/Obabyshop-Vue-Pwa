@@ -91,6 +91,7 @@ export default {
   }
   &__title {
     color: white;
+    background: #26827b;
     font-family: "Catamaran";
     font-size: 1.3em;
     position: absolute;

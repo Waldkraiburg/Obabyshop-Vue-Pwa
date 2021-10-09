@@ -59,7 +59,7 @@ export default {
 .blog {
   margin-top: 4rem;
   &__container {
-    background: white;
+    background: rgb(255, 255, 255);
     color: $grey;
     margin-bottom: -1.2rem;
     padding-bottom: 6rem;
@@ -93,7 +93,7 @@ export default {
   &__title {
     color: white;
     font-family: "Catamaran";
-    font-size: 1.2em;
+    font-size: 1.4em;
     position: absolute;
     top: 1rem;
     left: 50%;

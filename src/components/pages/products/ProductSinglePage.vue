@@ -49,20 +49,20 @@
           <span><font-awesome-icon :icon="mapIcon" /> </span>{{ place }}
         </p>
         <h1>{{ title }}</h1>
-        <span>Prix: {{ price }} euros</span>
+        <span>Prix: {{ price }} €</span>
       </div>
     </section>
 
     <section class="product__description">
       <p>
-        Article:
+        ARTICLE :
         <span class="product__category-description">{{ title }}</span>
       </p>
       <p>
-        Catégorie:
+        CATÉGORIE :
         <span class="product__category-description">{{ categoryName }}</span>
       </p>
-      <span>Description:</span>
+      <span>DESCRIPTION :</span>
       <p v-html="content" class="product__content-description"></p>
       <div class="product__contact">
         <span
@@ -154,13 +154,13 @@ export default {
             response.data._embedded["wp:featuredmedia"][0].source_url;
         }
 
-        if (this.category == 4) {
+        if (this.category == 2) {
           this.categoryName = "Jouets";
-        } else if (this.category == 6) {
+        } else if (this.category == 1) {
           this.categoryName = "Accessoires";
-        } else if (this.category == 5) {
+        } else if (this.category == 3) {
           this.categoryName = "Meubles";
-        } else if (this.category == 7) {
+        } else if (this.category == 4) {
           this.categoryName = "Vêtements";
         }
       }
@@ -199,12 +199,18 @@ export default {
       margin-bottom: 2rem;
     }
     @include breakpoint-large {
-      width: 100%;
+      width: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
       margin-bottom: 2rem;
     }
     @include breakpoint-very-large {
-      width: 100%;
+      width: 70%;
       margin-bottom: 0;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   &__slider-small-image {

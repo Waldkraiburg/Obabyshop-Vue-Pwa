@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = process.env.VUE_APP_BASE_URL + "/wp-json";
+const baseUrl = "http://obabyshop-backend.test/wp/wp-json";
 
 export default {
   get: (path) => {

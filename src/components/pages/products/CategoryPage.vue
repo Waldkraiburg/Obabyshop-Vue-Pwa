@@ -99,13 +99,13 @@ export default {
         this.categoryProducts = response.data;
       }
     );
-    if (category === "5") {
+    if (category === "3") {
       this.categoryName = "Meubles";
-    } else if (category === "6") {
+    } else if (category === "1") {
       this.categoryName = "Accessoires";
-    } else if (category === "4") {
+    } else if (category === "2") {
       this.categoryName = "Jouets";
-    } else if (category === "7") {
+    } else if (category === "4") {
       this.categoryName = "Vêtements";
     }
   },

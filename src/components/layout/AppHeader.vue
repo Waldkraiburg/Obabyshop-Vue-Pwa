@@ -79,10 +79,10 @@
             Catégories
           </button>
           <div class="bottombar__dropdown-content">
-            <a href="/categorie/6">Accessoires</a>
-            <a href="/categorie/4">Jouets</a>
-            <a href="/categorie/5">Meubles</a>
-            <a href="/categorie/7">Vêtements</a>
+            <a href="/categorie/1">Accessoires</a>
+            <a href="/categorie/2">Jouets</a>
+            <a href="/categorie/3">Meubles</a>
+            <a href="/categorie/4">Vêtements</a>
           </div>
         </div>
         <span>|</span>
